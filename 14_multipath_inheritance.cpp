@@ -17,7 +17,9 @@ public:
 // Using virtual inheritance to avoid ambiguity
 // when multiple paths lead to the same base class
 // This is useful in hybrid inheritance scenarios where multiple paths lead to the same base class.
+
 // It ensures that only one instance of the base class is created, preventing ambiguity and redundancy.
+
 // It helps to maintain a single instance of the base class, reducing memory usage and potential conflicts in member access.
 // It is important to note that virtual inheritance can introduce some complexity in the class hierarchy and may require careful design to avoid issues such as the diamond problem, where a derived class inherits from two classes that both inherit from a common base class.
 // In such cases, virtual inheritance can help to resolve ambiguity and ensure that the derived class has a single instance of the base class.
